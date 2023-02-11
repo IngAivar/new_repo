@@ -1,6 +1,10 @@
 #!/usr/bin/python3
 
 def all_upper(string):
-        upper_string = string.upper()
+    """
+        Эта функция получает строку и возвращает её в верхнем регистре
+    """
 
-        return upper_string
+    upper_string = string.upper()
+
+    return upper_string
